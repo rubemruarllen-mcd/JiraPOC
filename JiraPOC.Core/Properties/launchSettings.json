@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Help": {
+      "commandName": "Project",
+      "commandLineArgs": "true full-ticket --help\r\n"
+    }
+  }
+}

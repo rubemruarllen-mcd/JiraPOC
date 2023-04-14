@@ -1,0 +1,214 @@
+{
+  "options": [
+    {
+      "name": "--summary",
+      "description": "The summary or brief description of an issue or task in Jira. It is typically a short sentence or phrase that gives an idea of what the issue is about.",
+      "defaultValue": "TESTE",
+      "alias": [
+        "-s"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--description",
+      "description": "The detailed description of an issue or task in Jira. It provides more information than the summary and is typically used to describe the problem or request in more detail.",
+      "defaultValue": null,
+      "alias": [
+        "-d"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--epic-ticket",
+      "description": "The epic ticket or issue in Jira. An epic is a large body of work that can be broken down into smaller tasks or issues. The epic ticket is used to track the progress of the entire epic.",
+      "defaultValue": null,
+      "alias": [
+        "-et"
+      ],
+      "isRequired": true,
+      "multipleArgs": false
+    },
+    {
+      "name": "--team-id",
+      "description": "The team ID in Jira. The team ID is used to identify a specific team in Jira, which can be useful for assigning tasks or issues to specific teams.",
+      "defaultValue": "720",
+      "alias": [
+        "-ti"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--assignee-name",
+      "description": "The name of the person who is assigned to work on a task or issue in Jira. The assignee is responsible for completing the work and is typically notified when the task or issue is assigned to them.",
+      "defaultValue": null,
+      "alias": [
+        "-an"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--priority-name",
+      "description": "The priority level of a task or issue in Jira. Priority levels can range from low to critical and are used to indicate the importance of the issue or task.",
+      "defaultValue": "High",
+      "alias": [
+        "-pn"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--labels",
+      "description": "The labels associated with a task or issue in Jira. Labels are used to categorize and organize issues and can be used to search for specific issues based on certain criteria.",
+      "defaultValue": null,
+      "alias": [
+        "-l"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    },
+    {
+      "name": "--issue-type",
+      "description": "The type of issue or task in Jira. Issue types can include things like bug, task, story, or epic, and are used to categorize and organize issues.",
+      "defaultValue": "1",
+      "alias": [
+        "-it"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--component-name",
+      "description": "The components associated with a task or issue in Jira. Components are used to categorize issues based on their functionality or location within a system.",
+      "defaultValue": null,
+      "alias": [
+        "-cn"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    },
+    {
+      "name": "--version-name",
+      "description": "The version of software associated with a task or issue in Jira.",
+      "defaultValue": null,
+      "alias": [
+        "-vn"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    },
+    {
+      "name": "--project-id",
+      "description": "The project in Jira. Projects are used to organize issues and tasks based on their purpose or area of focus.",
+      "defaultValue": "21515",
+      "alias": [
+        "-pi"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--comment",
+      "description": "The comments associated with a task or issue in Jira. Comments can be used to provide additional information or context about an issue, or to communicate with other team members.",
+      "defaultValue": "Was found a bug. [~ea668497] please take a look.",
+      "alias": [
+        "-c"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--file-path",
+      "description": "The file attachments associated with a task or issue in Jira. Files can be attached to provide additional information or to share documents or other resources with team members.",
+      "defaultValue": null,
+      "alias": [
+        "-fp"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    },
+    {
+      "name": "--jira-token",
+      "description": "The Jira API token. The API token is used to authenticate API requests and provides a secure way to access Jira data.",
+      "defaultValue": null,
+      "alias": [
+        "-jt"
+      ],
+      "isRequired": true,
+      "multipleArgs": false
+    },
+    {
+      "name": "--jira-url",
+      "description": "The base URL of the Jira instance. The base URL is used to access Jira.",
+      "defaultValue": null,
+      "alias": [
+        "-ju"
+      ],
+      "isRequired": true,
+      "multipleArgs": false
+    },
+    {
+      "name": "--description-objective",
+      "description": "The objective of ticket",
+      "defaultValue": null,
+      "alias": [
+        "-do"
+      ],
+      "isRequired": false,
+      "multipleArgs": false
+    },
+    {
+      "name": "--description-assumptions",
+      "description": "The assumptions of ticket. It's a array pass with ',' e.g: ('-da \"My assumption\" -da\" My assumption two\" -da\" My tree \")",
+      "defaultValue": null,
+      "alias": [
+        "-da"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    },
+    {
+      "name": "--description-pre-dep",
+      "description": "The prerequisites and dependecies of ticket. It's a array pass with ',' e.g: ('-dpd \"My requisite\" -dpd\" My requisite two\" -dpd\" My tree \")",
+      "defaultValue": null,
+      "alias": [
+        "-dpd"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    },
+    {
+      "name": "--description-deliverables",
+      "description": "The deliverables of ticket. It's a array pass with ',' e.g: ('-dd \"My deliverable\" -dd\" My deliverable two\" -dd\" My tree \")",
+      "defaultValue": null,
+      "alias": [
+        "-dd"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    },
+    {
+      "name": "--description-acceptance-criteria",
+      "description": "The acceptance criteria of ticket. It's a array pass with ',' e.g: ('-dac \"My acceptance\" -dac\"My acceptance two\" -dac\" My tree \")",
+      "defaultValue": null,
+      "alias": [
+        "-dac"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    },
+    {
+      "name": "--description-additional-informations",
+      "description": "The additional informations of ticket. It's a array pass with ',' e.g: ('-dai \"My dditional informations\" -dai \"My dditional informations two \" -dai\" My tree \")",
+      "defaultValue": null,
+      "alias": [
+        "-dai"
+      ],
+      "isRequired": false,
+      "multipleArgs": true
+    }
+  ]
+}
