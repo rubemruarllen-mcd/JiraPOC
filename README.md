@@ -56,6 +56,7 @@ gives an idea of what the issue is about. [default: TESTE]|
 # Commands:
 
 | Commands | Description |
+| ------ | ------ |
 | ticket <use-template>  | Just create a sigle ticket |
 | ticket-with-comment <use-template> | Create a sigle ticket and comment |
 |  ticket-with-file <use-template> | Create a sigle ticket and  attach files |
