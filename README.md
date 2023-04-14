@@ -2,7 +2,7 @@
 
 Today the jiraPOCa will chirp.
 
-![samplev3](https://user-images.githubusercontent.com/102624521/188141832-92f687c2-8c31-4849-b320-01320d7cb7d5.png)
+![samplev3](https://user-images.githubusercontent.com/102624521/188141832-92f687c2-8c31-4849-b320-01320d7cb7d5.pnghttps://www.google.com/url?sa=i&url=http%3A%2F%2Fsailormoonnews.com%2F2018%2F10%2F14%2Fhow-accurate-is-the-tuxedo-mask-my-job-here-is-done-meme%2Fsailor_moon_episode_1_tuxedo_mask_leaving_without_doing_anything%2F&psig=AOvVaw1n8qeNYmyU5VVh2hxQ7sae&ust=1681566829299000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID1pN7Cqf4CFQAAAAAdAAAAABAE)
 
 
 
@@ -55,7 +55,7 @@ gives an idea of what the issue is about. [default: TESTE]|
 
 # Commands:
 
-| Option | Description |
+| Commands | Description |
 | ticket <use-template>  | Just create a sigle ticket |
 | ticket-with-comment <use-template> | Create a sigle ticket and comment |
 |  ticket-with-file <use-template> | Create a sigle ticket and  attach files |
