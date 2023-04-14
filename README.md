@@ -27,7 +27,7 @@ JiraPOC.Core.exe --help
 
 | Option | Description |
 | ------ | ------ |
-|-s, --summary <summary>| tes|
+|-s, --summary <summary>| The summary or brief description of an issue or task in Jira. It is typically a short sentence or phrase that gives an idea of what the issue is about. [default: TESTE]|
 |-d, --description <description> | The detailed description of an issue or task in Jira. It provides more information than the summary and is typically used to describe the problem or request in more detail. []|		
 |-et, --epic-ticket <epic-ticket> (REQUIRED) | The epic ticket or issue in Jira. An epic is a large body of work that can be broken down into smaller tasks or issues. The epic ticket is used to track the progress of  the entire epic. []|
 |-ti, --team-id <team-id> |The team ID in Jira. The team ID is used to identify a specific team in Jira, which can be useful for assigning tasks or issues to specific teams. [default: 720]|
