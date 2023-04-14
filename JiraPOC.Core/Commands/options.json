@@ -113,7 +113,7 @@
     {
       "name": "--comment",
       "description": "The comments associated with a task or issue in Jira. Comments can be used to provide additional information or context about an issue, or to communicate with other team members.",
-      "defaultValue": "Was found a bug. [~ea668497] please take a look.",
+      "defaultValue": "",
       "alias": [
         "-c"
       ],
