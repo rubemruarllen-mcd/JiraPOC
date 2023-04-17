@@ -14,7 +14,7 @@ class Program
     static async Task Main(string[] args)
     {
 
-        var template = new Argument<bool>(name: "use-template", "This argument is a flag to use a template for descrition. " +
+        var template = new Argument<bool>(name: "use-template", "This argument is a flag to use a template for description. " +
             "If true please pass the flgas ()");
         var rootCommand = new RootCommand("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[ Welcome to the JiraPOC ]=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" +
             "\nThis application create jira's tickets, comment and attach files");
