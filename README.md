@@ -19,10 +19,20 @@ JiraPOC.Core.exe --help
 ```
 
 ## Usage:
-  JiraPOC.Core [<use-template>] [command] [options]
+  JiraPOC.Core [command] [\<use-template>] [options]
 
 ### Arguments
 	<use-template>  This argument is a flag to use a template for descrition.
+
+# Commands:
+
+| Commands | Description |
+| ------ | ------ |
+| ticket \<use-template>  | Just create a sigle ticket |
+| ticket-with-comment \<use-template> | Create a sigle ticket and comment |
+|  ticket-with-file \<use-template> | Create a sigle ticket and  attach files |
+|  full-ticket \<use-template> | Create a jira ticket, comment and attach files |
+
 ### Options
 
 | Option | Description |
@@ -52,13 +62,6 @@ JiraPOC.Core.exe --help
 |-?, -h, --help | Show help and usage information |
 
 
-# Commands:
 
-| Commands | Description |
-| ------ | ------ |
-| ticket <use-template>  | Just create a sigle ticket |
-| ticket-with-comment <use-template> | Create a sigle ticket and comment |
-|  ticket-with-file <use-template> | Create a sigle ticket and  attach files |
-|  full-ticket <use-template> | Create a jira ticket, comment and attach files |
 
 
